@@ -39,7 +39,7 @@ class myListItem extends StatelessWidget {
   final int number;
   @override
   Widget build(BuildContext context) {
-    return ListTile(title: Text("${UserList[number].Name}"), onTap: (){},);
+    return ListTile(title: Text("ФИО: ${UserList[number].Name} \nНомер телефона: ${UserList[number].Phone}"), onTap: (){},);
   }
 }
 
